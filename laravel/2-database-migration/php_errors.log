@@ -1,0 +1,140 @@
+[27-May-2016 09:04:01 UTC] PHP Warning:  include(/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:04:01 UTC] PHP Stack trace:
+[27-May-2016 09:04:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:04:01 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:04:01 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:04:01 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:04:01 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:04:01 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:04:01 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:04:01 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:04:01 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:04:01 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:04:01 UTC] PHP Stack trace:
+[27-May-2016 09:04:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:04:01 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:04:01 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:04:01 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:04:01 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:04:01 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:04:01 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:04:01 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:04:01 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:04:01 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:04:01 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+Stack trace:
+#0 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(738): ReflectionClass->__construct('App\Http\Kernel')
+#1 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Container\Container->build('App\Http\Kernel', Array)
+#2 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\Http\Kernel', Array)
+#3 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\Http\Kernel', Array)
+#4 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(735): Illu in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 738
+[27-May-2016 09:05:45 UTC] PHP Warning:  include(/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:05:45 UTC] PHP Stack trace:
+[27-May-2016 09:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:05:45 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:05:45 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:05:45 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:05:45 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:05:45 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:05:45 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:05:45 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:05:45 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:05:45 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:05:45 UTC] PHP Stack trace:
+[27-May-2016 09:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:05:45 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:05:45 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:05:45 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:05:45 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:05:45 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:05:45 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:05:45 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:05:45 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:05:45 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:05:45 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+Stack trace:
+#0 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(738): ReflectionClass->__construct('App\Http\Kernel')
+#1 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Container\Container->build('App\Http\Kernel', Array)
+#2 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\Http\Kernel', Array)
+#3 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\Http\Kernel', Array)
+#4 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(735): Illu in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 738
+[27-May-2016 09:07:14 UTC] PHP Warning:  include(/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:07:14 UTC] PHP Stack trace:
+[27-May-2016 09:07:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:07:14 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:07:14 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:07:14 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:07:14 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:07:14 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:07:14 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:07:14 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:07:14 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:07:14 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:07:14 UTC] PHP Stack trace:
+[27-May-2016 09:07:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:07:14 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:07:14 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:07:14 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:07:14 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:07:14 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:07:14 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:07:14 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:07:14 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:07:14 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:07:14 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+Stack trace:
+#0 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(738): ReflectionClass->__construct('App\Http\Kernel')
+#1 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Container\Container->build('App\Http\Kernel', Array)
+#2 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\Http\Kernel', Array)
+#3 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\Http\Kernel', Array)
+#4 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(735): Illu in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 738
+[27-May-2016 09:11:22 UTC] PHP Warning:  include(/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:11:22 UTC] PHP Stack trace:
+[27-May-2016 09:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:11:22 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:11:22 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:11:22 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:11:22 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:11:22 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:11:22 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:11:22 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:11:22 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:11:22 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/lessons/laravel/app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php on line 412
+[27-May-2016 09:11:22 UTC] PHP Stack trace:
+[27-May-2016 09:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:0
+[27-May-2016 09:11:22 UTC] PHP   2. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/2-database-migration/public/index.php:50
+[27-May-2016 09:11:22 UTC] PHP   3. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:11:22 UTC] PHP   4. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:11:22 UTC] PHP   5. Illuminate\Container\Container->Illuminate\Container\{closure}($c = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:735
+[27-May-2016 09:11:22 UTC] PHP   6. Illuminate\Foundation\Application->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:230
+[27-May-2016 09:11:22 UTC] PHP   7. Illuminate\Container\Container->make($abstract = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:697
+[27-May-2016 09:11:22 UTC] PHP   8. Illuminate\Container\Container->build($concrete = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
+[27-May-2016 09:11:22 UTC] PHP   9. ReflectionClass->__construct(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+[27-May-2016 09:11:22 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/lessons/laravel/vendor/composer/ClassLoader.php:301
+[27-May-2016 09:11:22 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:738
+Stack trace:
+#0 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(738): ReflectionClass->__construct('App\Http\Kernel')
+#1 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(633): Illuminate\Container\Container->build('App\Http\Kernel', Array)
+#2 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\Http\Kernel', Array)
+#3 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\Http\Kernel', Array)
+#4 /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(735): Illu in /home/ubuntu/workspace/lessons/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 738
