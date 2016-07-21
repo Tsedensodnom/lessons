@@ -2,12 +2,11 @@
 <html>
     <head>
         <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
         <style>
             html, body {
                 height: 100%;
+                font-weight: 400;
             }
 
             body {
@@ -31,14 +30,14 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 24px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel - 3. View data, Blade, Layout</div>
             </div>
         </div>
     </body>
