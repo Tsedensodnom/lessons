@@ -1,0 +1,28 @@
+<div>
+    <button type="button" class="pull-right btn btn-info" ng-click="logout()">Гарах</button>
+    <div class="clearfix"></div>
+</div>
+<hr>
+
+<div class="form-inline" ng-if="data.editMode === 'create'">
+    <input type="text" class="form-control" placeholder="..." ng-model="data.text.create">
+    <button type="submit" class="btn btn-default" ng-click="create()">Нэмэх</button>
+</div>
+
+<div class="form-inline" ng-if="data.editMode === 'update'">
+    <input type="text" class="form-control" placeholder="..." ng-model="data.text.update">
+    <button type="submit" class="btn btn-primary" ng-click="update()">Засах</button>
+</div>
+
+<hr>
+
+<div ng-repeat="todo in data.todos">
+	<strike ng-if="todo.status === 'deleted'">{{ todo.content }}</strike>
+	<b ng-if="todo.status === 'published'">{{ todo.content }}</b>
+	<div class="pull-right">
+	    <button ng-click="load(todo.id)" class="btn btn-info btn-xs">Засах</button>
+	    <button ng-if="todo.status === 'published'" ng-click="changeStatus(todo.id, true)" class="btn btn-warning btn-xs">Хасах</button>
+	    <button ng-if="todo.status === 'deleted'" ng-click="changeStatus(todo.id, false)" class="btn btn-warning btn-xs">Буцаах</button>
+    	<button ng-click="remove(todo.id)" class="btn btn-danger btn-xs">Устгах</button>
+	</div>
+</div>
