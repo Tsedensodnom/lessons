@@ -61,7 +61,7 @@ todoAppServices.factory('todoService', ['Restangular', 'userService', function(R
     function all (onSuccess, onError) {
         Restangular.all('api/todos').getList().then(function (response) {
             onSuccess(response);
-		}, function(){
+		}, function(response){
 			onError(response);
 		});
     }

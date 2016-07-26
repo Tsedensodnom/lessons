@@ -39,7 +39,7 @@ todoAppControllers.controller('HomeController', function ($scope, $http, $locati
         });
     }
     
-    $scope.changeStatus = function(todoId, remove = true) {
+    $scope.changeStatus = function(todoId, remove) {
         var text = '';
         for (var i = $scope.data.todos.length; i--; ) {
 	        if ($scope.data.todos[i].id == todoId) {
