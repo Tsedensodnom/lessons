@@ -13,12 +13,12 @@
     <form method="post" action="{{ action('MovieController@store') }}">
         <div class="form-group">
             <label>Киноны нэр</label>
-            <input class="form-control" type="text" name="name"/>
+            <input class="form-control" type="text" name="name" value="{{ old('name') }}"/>
         </div>
         
         <div class="form-group">
             <label for="">Он</label>
-            <input class="form-control" type="text" name="year"/>
+            <input class="form-control" type="text" name="year" value="{{ old('year') }}"/>
         </div>
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="submit" class="btn btn-default" value="Хадгалах"/>

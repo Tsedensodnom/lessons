@@ -11,6 +11,19 @@
 |
 */
 
+Route::get('/hello', function() {
+    $v = Validator::make([
+        'a' => '',
+    ], [
+        'a' => 'required',
+    ]);
+    
+    if ($v->fails()) {
+        return 'asd';
+    }
+    return 'Hello';
+});
+
 Route::get('/', 'MovieController@index');
 Route::post('/movie/store', 'MovieController@store');
 

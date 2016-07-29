@@ -72,3 +72,35 @@
 [29-Jul-2016 05:10:04 UTC] PHP  62. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/vendor/laravel/framework/src/Illuminate/View/View.php:149
 [29-Jul-2016 05:10:04 UTC] PHP  63. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:59
 [29-Jul-2016 05:10:04 UTC] PHP  64. include() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:42
+[29-Jul-2016 05:37:54 UTC] PHP Warning:  require(/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:54 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:54 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:37:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:54 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:54 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:37:55 UTC] PHP Warning:  require(/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:55 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:55 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:37:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:55 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:55 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:37:57 UTC] PHP Warning:  require(/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:57 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:57 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:37:57 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:37:57 UTC] PHP Stack trace:
+[29-Jul-2016 05:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:37:57 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:38:25 UTC] PHP Warning:  require(/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:38:25 UTC] PHP Stack trace:
+[29-Jul-2016 05:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:38:25 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
+[29-Jul-2016 05:38:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/bootstrap/autoload.php on line 17
+[29-Jul-2016 05:38:25 UTC] PHP Stack trace:
+[29-Jul-2016 05:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:0
+[29-Jul-2016 05:38:25 UTC] PHP   2. require() /home/ubuntu/workspace/lessons/laravel/beginner/9-validations/public/index.php:22
