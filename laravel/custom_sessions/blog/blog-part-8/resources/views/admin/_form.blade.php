@@ -24,6 +24,30 @@
                 @endif
             @elseif ($field['type'] == 'password')
                 <input class="form-control" type="password" name="{{ $key }}" id="input_{{ $key }}"/>
+            @elseif ($field['type'] == 'relation')
+                <?php
+                    $className = $field['model'];
+                    $options = $className::select($field['select'])->get();
+                    $data = [];
+                    $select1 = $field['select'][0];
+                    $select2 = $field['select'][1];
+                    foreach ($options as $value) {
+                        $data[$value->$select1] = $value->$select2;
+                    }
+                    
+                    $selected = [];
+                    if (isset($model)) {
+                        $selected = array_pluck($model->$key, $field['select'][0]);
+                    }
+                ?>
+                @foreach ($data as $dataKey => $item)
+                <div class="checkbox">
+                    <label>
+                        <input name="{{ $key }}[]" type="checkbox" value="{{ $dataKey }}" {{ in_array($dataKey, $selected)?'checked':'' }}>
+                        {{ $item }}
+                    </label>
+                </div>
+                @endforeach
             @endif
         </div>
     </div>

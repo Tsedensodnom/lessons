@@ -22,9 +22,11 @@ class BlogController extends Controller
     }
     
     public function showCategory ($id) {
-        $posts = \App\Post::where('category_id', $id)
-            ->orderby('created_at', 'desc')
-            ->paginate(5);
+        // $posts = \App\Post::where('category_id', $id)
+        //     ->orderby('created_at', 'desc')
+        //     ->paginate(5);
+        
+        $posts = \App\Category::find($id)->posts()->paginate(5);
         
         return view('index', [
             'posts' => $posts,

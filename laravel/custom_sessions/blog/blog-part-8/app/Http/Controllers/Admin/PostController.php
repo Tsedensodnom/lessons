@@ -25,9 +25,9 @@ class PostController extends BaseController
         ],
     ];
     public $fields = [
-        'category_id' => [
+        'categories' => [
             'label' => 'Ангилал',
-            'type' => 'dropdown',
+            'type' => 'relation',
             'model' => '\App\Category',
             'select' => ['id', 'name'],
         ],

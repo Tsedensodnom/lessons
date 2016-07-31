@@ -53,11 +53,16 @@ class BaseController extends Controller
         $className = $this->modelClass;
         $model = new $className;
         
-        foreach ($this->fields as $key => $field) {
-            $model->$key = $request->get($key);
-        }
+        $this->prepareModelField($model, $request);
         
         $model->save();
+        
+        //model is in db, bind relation values
+        foreach ($this->fields as $key => $field) {
+            if ($field['type'] != 'relation') continue;
+            
+            $this->bindRelationValues($key, $model, $request->get($key));
+        }
         
         return redirect($this->urlName);
     }
@@ -105,26 +110,20 @@ class BaseController extends Controller
         $className = $this->modelClass;
         $model = $className::findOrFail($id);
         
-        foreach ($this->fields as $key => $field) {
-            if (isset($field['ignore_empty']) && $field['ignore_empty'] == true) {
-                if ($request->get($key) == null || $request->get($key) == '') {
-                    continue;
-                }
-            }
-            $model->$key = $request->get($key);
-        }
+        $this->prepareModelField($model, $request);
         
+        //FUTURE - Validations rules will be added
         // if ($model->validate()) {
-            foreach ($this->fields as $key => $field) {
-                if (isset($field['purgeable']) && $field['purgeable'] == true) {
-                    unset($model->$key);
-                }
+            // foreach ($this->fields as $key => $field) {
+            //     if (isset($field['purgeable']) && $field['purgeable'] == true) {
+            //         unset($model->$key);
+            //     }
                 
-                if (isset($field['hashable']) && $field['hashable'] == true) {
-                    $model->$key = \Hash::make($model->$key);
-                }
-            }
-            $model->save();
+            //     if (isset($field['hashable']) && $field['hashable'] == true) {
+            //         $model->$key = \Hash::make($model->$key);
+            //     }
+            // }
+            // $model->save();
         // }
         
         return redirect($this->urlName);
@@ -143,5 +142,38 @@ class BaseController extends Controller
         $model->delete();
         
         return redirect($this->urlName);
+    }
+    
+    public function prepareModelField(&$model, $request) {
+        foreach ($this->fields as $key => $field) {
+            if (isset($field['ignore_empty']) && $field['ignore_empty'] == true) {
+                if ($request->get($key) == null|| $request->get($key) == '') {
+                    continue;
+                }
+            }
+            
+            if ($field['type'] == 'relation') {
+                $this->bindRelationValues($key, $model, $request->get($key));
+            } else {
+                $model->$key = $request->get($key);
+            }
+        }
+    }
+    
+    public function bindRelationValues ($relationField, &$model, $values) {
+        $relationType = get_class($model->$relationField());
+        if ($relationType == 'Illuminate\Database\Eloquent\Relations\BelongsToMany') {
+            $related = get_class($model->$relationField()->getRelated());
+            $relationModels = $related::whereIn('id', $values)->get();
+            
+            //delete relations before being saved
+            //determine model is new or old
+            if ($model->id != null) { //model is not new, and its already in db
+                $model->$relationField()->detach();
+                foreach ($relationModels as $m) {
+                    $model->$relationField()->attach($m);
+                }
+            }
+        }
     }
 }

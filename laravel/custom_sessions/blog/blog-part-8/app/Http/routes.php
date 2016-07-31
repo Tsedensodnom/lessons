@@ -31,3 +31,13 @@ Route::group(['middleware' => [ 'auth' ], 'prefix' => 'admin'], function () {
     Route::resource('category', 'Admin\CategoryController');
     Route::resource('user', 'Admin\UserController');
 });
+
+Route::get('/test', function() {
+    $model = \App\Post::find(1);
+    dd(get_class($model->categories()));
+    dd($model->categories());
+    
+    // Illuminate\Database\Eloquent\Relations\BelongsToMany
+    
+    // get_class
+});
