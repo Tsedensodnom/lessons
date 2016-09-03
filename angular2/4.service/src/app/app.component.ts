@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { CommentComponent } from "./comment";
+import { InputComponent } from "./input";
+import { ListComponent } from "./list";
+import { DataService } from "./data.service";
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
-  directives: [ CommentComponent ],
+  directives: [ InputComponent, ListComponent],
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+  styleUrls: ['app.component.css'],
+  providers: [ DataService ],
 })
 export class AppComponent {
   title = 'app works!';
