@@ -1,7 +1,0 @@
-{
-    "require": {
-        "illuminate/database": "^5.3",
-        "filp/whoops": "^2.1",
-        "fzaninotto/faker": "^1.6"
-    }
-}
