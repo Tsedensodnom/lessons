@@ -1,0 +1,7 @@
+{
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "filp/whoops": "^2.1",
+        "symfony/var-dumper": "^3.1"
+    }
+}
