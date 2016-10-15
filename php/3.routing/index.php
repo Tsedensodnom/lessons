@@ -7,6 +7,9 @@ $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
 
+//basePath
+$basePath = mb_substr($_SERVER['SCRIPT_NAME'], 0, strrpos($_SERVER['SCRIPT_NAME'], '/'));
+
 //little fix for normal use
 if ($_SERVER['REQUEST_URI'] == $basePath) {
   $_SERVER['REQUEST_URI'] .= '/';
@@ -14,9 +17,6 @@ if ($_SERVER['REQUEST_URI'] == $basePath) {
 } elseif (mb_substr($_SERVER['REQUEST_URI'], -1) == '/') {
   $_SERVER['REQUEST_URI'] = mb_substr($_SERVER['REQUEST_URI'], 0, -1);
 }
-
-//basePath
-$basePath = mb_substr($_SERVER['SCRIPT_NAME'], 0, strrpos($_SERVER['SCRIPT_NAME'], '/'));
 
 $router = new AltoRouter();
 $router->setBasePath($basePath);
