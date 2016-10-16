@@ -26,5 +26,4 @@ $group = $app->group('/admin', function($group) {
     return $response;
   });
 });
-
 $app->run();
