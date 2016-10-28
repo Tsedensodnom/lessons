@@ -10,7 +10,7 @@
     <div class="row">
         @foreach ($photoSet as $photo)
             <div class="col-md-4">
-                <img class="img-responsive" src="{{ asset('storage/'.$photo) }}"></img>
+                <img class="img-responsive" src="{{ asset($photo) }}"></img>
                 {{ $photo }}
             </div>
         @endforeach

@@ -14,10 +14,7 @@
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
-    $files = Storage::files('public/photos');
-    foreach ($files as $key => $file) {
-        $files[$key] = str_replace('public/', '', $file);
-    }
+    $files = Storage::disk('public_path')->files('photos');
     return view('list', ['photos' => collect($files)]);
 });
 
