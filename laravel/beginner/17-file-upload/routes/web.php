@@ -26,6 +26,6 @@ Route::get('/upload', function () {
 });
 
 Route::post('/upload', function (Request $request) {
-    $path = $request->file('photo')->store('public/photos');
+    $path = $request->file('photo')->store('photos', 'public_path');
     return redirect()->to('/');
 });
