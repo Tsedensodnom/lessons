@@ -1,0 +1,1004 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"$functions〔variable〕"
+			],
+			[
+				"App",
+				"AbstractApplication〔class〕"
+			],
+			[
+				"expi",
+				"$expire〔variable〕"
+			],
+			[
+				"__ar",
+				"__input〔variable〕"
+			],
+			[
+				"pro",
+				"profiler"
+			],
+			[
+				"stora",
+				"storage_path〔function〕"
+			],
+			[
+				"set",
+				"settings〔variable〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"comma",
+				"$commands〔variable〕"
+			],
+			[
+				"requ",
+				"requestRebinder"
+			],
+			[
+				"request",
+				"$request〔variable〕"
+			],
+			[
+				"ext",
+				"$extName〔variable〕"
+			],
+			[
+				"exte",
+				"extension.manager"
+			],
+			[
+				"cona",
+				"$container〔variable〕"
+			],
+			[
+				"nam",
+				"$name〔variable〕"
+			],
+			[
+				"ex",
+				"$extensionPath〔variable〕"
+			],
+			[
+				"str_rep",
+				"str_replace〔function〕"
+			],
+			[
+				"na",
+				"name($stub.'.stub"
+			],
+			[
+				"exten",
+				"$extension〔variable〕"
+			],
+			[
+				"stu",
+				"$stub〔variable〕"
+			],
+			[
+				"Dy",
+				"DummyCommandAuthor:DummyCommandName"
+			],
+			[
+				"Dum",
+				"DummyCommandAuthor:DummyCommandName"
+			],
+			[
+				"D",
+				"DummyCommandAuthor:DummyCommandName"
+			],
+			[
+				"argument",
+				"getArgument〔function〕"
+			],
+			[
+				"f",
+				"fun\tfunction …"
+			],
+			[
+				"exp",
+				"exception"
+			],
+			[
+				"extensions",
+				"extensions"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"for",
+				"for\tTwig : For"
+			],
+			[
+				"if",
+				"if\tTwig : If"
+			],
+			[
+				"curre",
+				"currentPage"
+			],
+			[
+				"pag",
+				"paginator"
+			],
+			[
+				"migrap",
+				"migrationPath"
+			],
+			[
+				"creat",
+				"creator"
+			],
+			[
+				"passwo",
+				"password_confirmation"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"Dumm",
+				"dummyExtension"
+			],
+			[
+				"registerComman",
+				"registerCommand"
+			],
+			[
+				"configureMid",
+				"configureRouteMiddlewares"
+			],
+			[
+				"extension",
+				"extensionManager"
+			],
+			[
+				"base",
+				"basePath"
+			],
+			[
+				"ab_law_pin",
+				"ab_law_pin_categories"
+			],
+			[
+				"defa",
+				"defaultConnection"
+			],
+			[
+				"bas",
+				"basePath"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"new",
+				"newItem"
+			],
+			[
+				"categ",
+				"category-tab"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"clas",
+				"class ~phpCodeGen\t@class ~phpCodeGen"
+			],
+			[
+				"cla",
+				"class ~phpCodeGen\t@class ~phpCodeGen"
+			],
+			[
+				"metho",
+				"method ~phpCodeGen\t@method ~phpCodeGen"
+			],
+			[
+				"prope",
+				"property ~phpCodeGen\t@property ~phpCodeGen"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"source",
+				"source_url"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ur",
+				"uri"
+			],
+			[
+				"pregmat",
+				"preg_match_all"
+			],
+			[
+				"quer",
+				"queryUrl"
+			],
+			[
+				"transl",
+				"translator"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"claim",
+				"claim_id"
+			],
+			[
+				"jud",
+				"judgement_id"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"mat",
+				"matchObj"
+			],
+			[
+				"cateoi",
+				"categoryIds"
+			],
+			[
+				"cateid",
+				"categoryIds"
+			],
+			[
+				"att",
+				"attachment_id"
+			],
+			[
+				"rainlab",
+				"rainlab_blog_posts_categories"
+			],
+			[
+				"stat",
+				"statement"
+			],
+			[
+				"cat",
+				"catch"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"comp",
+				"composer"
+			],
+			[
+				"catego",
+				"categoryPosts"
+			],
+			[
+				"dis",
+				"discussion"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"ma",
+				"mayContinue"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"category",
+				"category_id"
+			],
+			[
+				"feat",
+				"featured"
+			],
+			[
+				"feature",
+				"featuredPosts"
+			],
+			[
+				"featpo",
+				"featuredPosts"
+			],
+			[
+				"rainl",
+				"rainlab_blog_posts"
+			],
+			[
+				"incl",
+				"incl1\tinclude_once …"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"prim",
+				"primarySearchable"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"ab_scho",
+				"ab_school_groups"
+			],
+			[
+				"Sc",
+				"School"
+			],
+			[
+				"nul",
+				"null"
+			],
+			[
+				"deleted",
+				"deleted"
+			],
+			[
+				"delete",
+				"deleted_at"
+			],
+			[
+				"array",
+				"array_combine"
+			],
+			[
+				"url",
+				"url_name"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Loca",
+				"Location"
+			],
+			[
+				"Locat",
+				"location"
+			],
+			[
+				"not-",
+				"not-yet-pinned"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"total",
+				"totalAds"
+			],
+			[
+				"sign",
+				"sign"
+			],
+			[
+				"page",
+				"page_increment"
+			],
+			[
+				"prov",
+				"provider"
+			],
+			[
+				"provi",
+				"provider_id"
+			],
+			[
+				"ab_ka",
+				"ab_kai_posts"
+			],
+			[
+				"count",
+				"counter"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"yam",
+				"yamlContent"
+			],
+			[
+				"create",
+				"createpin"
+			],
+			[
+				"judi",
+				"judgementId"
+			],
+			[
+				"id",
+				"ids"
+			],
+			[
+				"type",
+				"types"
+			],
+			[
+				"jude",
+				"judgement"
+			],
+			[
+				"judem",
+				"judgementId"
+			],
+			[
+				"judm",
+				"judgement"
+			],
+			[
+				"jdugemi",
+				"judgementId"
+			],
+			[
+				"ab",
+				"ab_law_judgements_pins"
+			],
+			[
+				"docuemt",
+				"document_html"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"Timel",
+				"Timeline-Enabled"
+			],
+			[
+				"poli",
+				"politic_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 170.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inse",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"clear();",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/A/Web/lessons",
+		"/Users/A/Web/lessons/php",
+		"/Users/A/Web/lessons/php/blog",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Services/Core",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Bootstrap",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Services",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Services/Core",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/public",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Services/Core",
+		"/Users/A/Web/lessons/php/blog/5-middlewares",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Console/Commands",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Console/Commands/Core",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Middlewares",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Services/Core",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/config",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/public",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/views"
+	],
+	"file_history":
+	[
+		"/Users/A/Web/lessons/php/blog/5-middlewares/public/index.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Application.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Bootstrap/LoadRouter.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/AbstractApplication.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Bootstrap/LoadComponents.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Middlewares/TestMiddleware.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Bootstrap/LoadServices.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Services/Core/RouterService.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Container.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Bootstrap/LoadConsoleCommands.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Console/Commands/Core/CreateMiddleware.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Console/Commands/Core/_stubs/middleware.stub",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/config/app.php",
+		"/Users/A/Web/lessons/php/blog/5-middlewares/app/Services/Core/TwigService.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Controllers/HomeController.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Bootstrap/LoadConfigurations.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Services/Core/CacheRepository.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Application.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/public/index.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Bootstrap/LoadComponents.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Bootstrap/LoadServices.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Bootstrap/LoadConfigurations.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/public/index.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Controllers/HomeController.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Bootstrap/LoadConsoleCommands.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Console/Commands/Core/CreateService.php",
+		"/Users/A/Web/lessons/php/blog/4-cache-repository/app/Console/Application.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/CreateCommand.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/GeneratorCommand.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/helpers.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Application.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Bootstrap/LoadConsoleCommands.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/_stubs/controller.stub",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/CreateController.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/CreateController.php",
+		"/Users/A/Web/lessons/php/blog/2-console/console.php",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/_stubs/command.stub",
+		"/Users/A/Web/lessons/php/blog/3-console-commands/app/Console/Commands/Core/BaseCommand.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Services/Core/ConsoleService.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Application.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Console/Application.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Console/Commands/Core/GeneratorCommand.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Console/Commands/Core/BaseCommand.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Bootstrap/LoadConsoleCommands.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/AbstractApplication.php",
+		"/Users/A/Web/lessons/php/blog/2-console/app/Bootstrap/LoadComponents.php",
+		"/Users/A/Web/lessons/php/blog/2-console/public/index.php",
+		"/Users/A/Web/lessons/php/blog/1-app/public/index.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/Bootstrap/LoadComponents.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/Application.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/helpers.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/Bootstrap/LoadConfigurations.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/Controllers/HomeController.php",
+		"/Users/A/Web/lessons/php/blog/1-app/app/Services/Core/ConfigRepository.php",
+		"/Users/A/Web/lessons/php/blog/1-app/composer.json",
+		"/Users/A/Web/lessons/php/blog/1-app/config/app.php",
+		"/Users/A/Web/lessons/php/blog/1-app/.gitignore",
+		"/private/var/folders/0w/gc177jh95nz7wy06260tzmb00000gn/T/fz3temp-1/Category.php",
+		"/private/var/folders/0w/gc177jh95nz7wy06260tzmb00000gn/T/fz3temp-1/fields.yaml",
+		"/private/var/folders/0w/gc177jh95nz7wy06260tzmb00000gn/T/fz3temp-1/GenerateJudgementCommand.php",
+		"/Users/A/Web/web/ebulan.com/index.php",
+		"/Users/A/Web/web/ebulan.com/config.php",
+		"/private/var/folders/0w/gc177jh95nz7wy06260tzmb00000gn/T/fz3temp-1/GenerateCodeCommand.php",
+		"/private/var/folders/0w/gc177jh95nz7wy06260tzmb00000gn/T/fz3temp-1/GenerateDocumentCommand.php",
+		"/Users/A/Web/web/ebulan.com/.htaccess",
+		"/Users/A/Web/web/slim/core/src/Events/ConfigureRoutes.php",
+		"/Users/A/Web/web/slim/ext/torom/admin/src/Listeners/EventListener.php",
+		"/Users/A/Web/web/slim/core/src/Bootstrap/LoadComponents.php",
+		"/Users/A/Web/web/slim/core/src/Bootstrap/BindBasePaths.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/Slim/App.php",
+		"/Users/A/Web/web/slim/core/src/Application.php",
+		"/Users/A/Web/web/slim/index.php",
+		"/Users/A/Web/web/slim/console",
+		"/Users/A/Web/web/a/routes/web.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/Slim/Container.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/Slim/DefaultServicesProvider.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/Slim/Http/Request.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php",
+		"/Users/A/Web/web/slim/vendor/slim/slim/example/index.php",
+		"/Users/A/Web/web/lawfront/_laravel/routes/web.php",
+		"/Users/A/Web/web/slim/core/src/Events/ConfigureMiddleware.php",
+		"/Users/A/Web/web/slim/.htaccess",
+		"/Users/A/Web/web/slim/core/src/helpers.php",
+		"/Users/A/Web/web/slim/core/src/Bootstrap/ConfigureConsole.php",
+		"/Users/A/Web/web/slim/storage/logs/notice.log",
+		"/Users/A/Web/web/slim/config/app.php",
+		"/Users/A/Web/web/slim/core/src/Http/Middlewares/TrailingSlash.php",
+		"/Users/A/Web/web/slim/config/cms.php",
+		"/Users/A/Web/web/slim/storage/logs/info.log",
+		"/Users/A/Web/web/slim/storage/logs/app.log",
+		"/Users/A/Web/web/slim/core/src/Bootstrap/<?php",
+		"/Users/A/Web/web/slim/vendor/illuminate/session/Store.php",
+		"/Users/A/Web/web/slim/core/src/Bootstrap/LoadConfiguration.php",
+		"/Users/A/Web/web/slim/core/src/Session/SessionManager.php",
+		"/Users/A/Web/web/slim/config/session.php",
+		"/Users/A/Web/web/slim/core/src/Http/Middlewares/StartSession.php",
+		"/Users/A/Web/web/slim/core/src/Extension/ExtensionManager.php",
+		"/Users/A/Web/web/slim/config/cache.php",
+		"/Users/A/Web/web/slim/vendor/illuminate/session/FileSessionHandler.php",
+		"/Users/A/Web/web/slim/vendor/illuminate/support/Manager.php",
+		"/Users/A/Web/web/slim/vendor/illuminate/session/SessionManager.php",
+		"/Users/A/Web/web/slim/core/src/Http/Middlewares/_.php",
+		"/Users/A/Web/web/slim/storage/sessions/7m6z2wIPT2DdJmNEz5w9dcPKMoSWcWzZbPLSo6KY",
+		"/Users/A/Web/web/slim/ext/torom/admin/src/Http/Middlewares/StartSession.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/CreateMiddlewareCommand.php",
+		"/Users/A/Web/web/lawfront/_laravel/.env",
+		"/Users/A/Web/web/slim/a/view.php",
+		"/Users/A/Web/web/slim/a/services.php",
+		"/Users/A/Web/web/slim/config/filesystems.php",
+		"/Users/A/Web/web/slim/a/filesystems.php",
+		"/Users/A/Web/web/slim/a/database.php",
+		"/Users/A/Web/web/slim/a/compile.php",
+		"/Users/A/Web/web/slim/storage/cache/b6/58/b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/GeneratorCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/stubs/middleware.stub",
+		"/Users/A/Web/web/slim/ext/torom/admin/src/bootstrap.php",
+		"/Users/A/Web/web/slim/core/src/Events/CommandsConfigured.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/stubs/listener.stub",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/CreateListenerCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/BaseCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/CreateCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/CreateEventCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/CreateExtensionCommand.php",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/stubs/command.stub",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/stubs/bootstrap.stub",
+		"/Users/A/Web/web/slim/core/src/Console/Commands/stubs/extension.stub",
+		"/Users/A/Web/web/slim/ext/torom/admin/src/Extension.php",
+		"/Users/A/Web/web/slim/ext/torom/core/src/Extension.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"$this->container",
+			"$app->",
+			"keys",
+			"config",
+			"$cache",
+			"$numProducts",
+			"$numProducts ",
+			"$numProducts",
+			"    ",
+			"',",
+			",",
+			",      => ",
+			"$this->base",
+			"$this->baseUrl",
+			"$this->container->share('path.",
+			"container",
+			"public",
+			"invoke",
+			"::invoke",
+			"::",
+			"$this->",
+			"name",
+			"consoleApp",
+			"application",
+			"input",
+			"('",
+			"$value",
+			"$this->container->get('path.base')",
+			"$route->",
+			"['",
+			"environment",
+			"request",
+			"'request'",
+			"request",
+			"container",
+			"env('",
+			"logger",
+			"core:boot-extensions",
+			"core:bootstrap",
+			"Console\\",
+			"$this->",
+			"this->",
+			"->basePath()",
+			"basePath()",
+			"basePath",
+			"this->basePath",
+			"this->",
+			"this",
+			"log",
+			"storage_path",
+			"app",
+			"file_handler",
+			"    ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"put",
+			"Callable",
+			"setRequestOnHandler",
+			"buildSession",
+			"createFile",
+			"native",
+			"store",
+			"app->",
+			"env('",
+			"app->",
+			"storage",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"->getContainer()",
+			";",
+			"container",
+			")",
+			"']",
+			"$app",
+			"container",
+			"->app",
+			"app->",
+			"container",
+			"() {",
+			"()",
+			"']",
+			"container[",
+			"singleton",
+			"['",
+			"container",
+			"events",
+			"commands",
+			"$container['console']->add(new ",
+			"replaces",
+			"['",
+			"$replaces",
+			"files",
+			"$path.'/'.$name.'.php'",
+			"finder",
+			"name",
+			"if ($this->name != null) {",
+			"null",
+			";",
+			" = ''",
+			"Who do you want to greet?",
+			"    ",
+			"conatiner",
+			"(",
+			"('",
+			"singleton",
+			"instance",
+			"static",
+			"console",
+			"$app",
+			"new Events\\",
+			"Events\\",
+			"attemp",
+			"this->app",
+			"\": \"",
+			"key"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<span class=\"timeago\" title=\"<?php echo $content->getCreatedDate(); ?>\"><?php echo $content->getCreatedDate(); ?></span>",
+			"ModelBook",
+			");",
+			"INSERT INTO `abdam_mongolcalendar_books` (`id`, `code`, `name`, `description`, `max_price`, `created_at`, `updated_at`, `default_monastery_id`, `latin_name`) VALUES (",
+			"INSERT INTO `ModelBook` (`id`, `code`, `name`, `description`, `max_price`, `created_at`, `updated_at`, `default_monastery_id`, `latin_name`) VALUES ",
+			");",
+			"INSERT INTO `ModelBook` ("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lessons.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 890.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
