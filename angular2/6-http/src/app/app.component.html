@@ -1,0 +1,20 @@
+<nav class="navbar navbar-fixed-top navbar-dark bg-inverse navbar-inverse">
+    <a class="navbar-brand" routerLink="/">Авто Түрээс</a>
+    <ul class="nav navbar-nav">
+        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link" routerLink="">Ерөнхий самбар</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="vehicles">Тээврийн хэрэгсэл</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="drivers">Жолооч</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="starter-template">
+        <router-outlet></router-outlet>
+    </div>
+</div>

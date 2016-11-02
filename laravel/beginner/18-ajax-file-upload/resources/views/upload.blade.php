@@ -12,7 +12,6 @@
     <input id="fileupload" type="file" name="photos[]" multiple>
 </span>
 <br>
-<br>
 <div id="progress" class="progress">
     <div class="progress-bar progress-bar-success"></div>
 </div>
