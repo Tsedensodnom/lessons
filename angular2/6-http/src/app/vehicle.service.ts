@@ -7,7 +7,7 @@ import { Vehicle } from './vehicle';
 
 @Injectable()
 export class VehicleService {
-	private baseUrl = 'http://localhost:4567/lessons/api/auto-rent/public/vehicle';
+	private baseUrl = '/api/public/vehicle';
 
 	constructor(private http: Http) { }
 
