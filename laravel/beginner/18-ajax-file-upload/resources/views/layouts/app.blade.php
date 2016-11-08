@@ -32,13 +32,13 @@
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-      <a class="navbar-brand" href="#">Зураг</a>
+      <a class="navbar-brand" href="#">Цомог</a>
       <ul class="nav navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="{{ url('/') }}">Зураг жагсаалт</a>
+          <a class="nav-link" href="{{ url('/') }}">Бүх цомог</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/upload') }}">Шинэ зураг нэмэх</a>
+          <a class="nav-link" href="{{ url('/upload') }}">Шинэ цомог нэмэх</a>
         </li>
       </ul>
     </nav>
