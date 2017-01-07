@@ -1,0 +1,15 @@
+Ab\BlogBundle\Entity\Category:
+    type: entity
+    table: null
+    repositoryClass: Ab\BlogBundle\Repository\CategoryRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -1,0 +1,2 @@
+PS1="\[\033[1;32m\]\u\$\[\033[1;36m\] "; clear;
+composer create-project symfony/framework-standard-edition projectname
