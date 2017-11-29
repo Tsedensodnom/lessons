@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="NewsApp.Views.Components.PostItem">
+    <ContentView.Content>
+        <Frame Padding="0" Margin="12,6">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <ffimageloading:CachedImage HorizontalOptions="Start"
+                    IsVisible="{Binding HasImage}"
+			        WidthRequest="60" HeightRequest="60"
+			        DownsampleToViewSize="true"
+                    Aspect="AspectFit"
+			        Source = "{Binding Image}">
+                </ffimageloading:CachedImage>
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="8" Spacing="0">
+                    <Label Text="{Binding TitleShort}" FontSize="Micro" TextColor="Black"/>
+                    <!-- <Label Text="{Binding Description}" FontSize="Micro"/> -->
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>
